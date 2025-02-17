@@ -12,7 +12,7 @@
     <h4>
         &nbsp&nbsp&nbsp&nbsp • &nbsp 💻 USE: Programmers <br><br>
         &nbsp&nbsp&nbsp&nbsp • &nbsp 🙏 DEADLINE: 09:20:00 ~ 09:19:59 (1 Day) <br><br>
-        &nbsp&nbsp&nbsp&nbsp • &nbsp 📫 MISSION: Solving 4 Questions <br><br>
+        &nbsp&nbsp&nbsp&nbsp • &nbsp 📫 MISSION: Solving 4 Questions(Individual) + 1 Question(Whole) <br><br>
         &nbsp&nbsp&nbsp&nbsp • &nbsp 💎 PENALTY: 5,000won <br><br>
         &nbsp&nbsp&nbsp&nbsp • &nbsp 👩‍👧‍👦 Q&A: Discuss Difficult Question With Each Other <br><br>
         &nbsp&nbsp&nbsp&nbsp • &nbsp ✍ CODE REVIEW: Solve the Same Question and Review It Together <br><br>
