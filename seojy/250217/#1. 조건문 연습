@@ -1,0 +1,37 @@
+# 1 
+/*
+정수 리스트 num_list가 주어질 때, 마지막 원소가 그전 원소보다 크면 
+마지막 원소에서 그전 원소를 뺀 값을 마지막 원소가 그전 원소보다 크지 않다면 
+마지막 원소를 두 배한 값을 추가하여 return하도록 solution 함수를 완성해주세요.
+
+*/
+
+
+#include <string>
+#include <vector>
+
+using namespace std;
+
+vector<int> solution(vector<int> num_list) {
+    vector<int> answer;
+    int num = 0;
+    int index = num_list.size() - 1;
+
+    if(num_list.at(index - 1) < num_list.at(index))
+    {
+        num = num_list.at(index) - num_list.at(index - 1);
+    }
+    else
+    {
+        num = num_list.at(index) * 2;
+    }
+
+    for(auto it = num_list.begin(); it != num_list.end();it++)
+    {
+        answer.push_back(*it);
+    }
+
+    answer.push_back(num);
+
+    return answer;
+}
