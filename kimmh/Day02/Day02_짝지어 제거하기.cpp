@@ -1,5 +1,6 @@
 /*
     https://school.programmers.co.kr/learn/courses/30/lessons/12973
+    ìŠ¤íƒì„ ì‚¬ìš©í•´ì•¼ í•˜ëŠ” ë¬¸ì œì˜€ë‹¤
 */
 
 #include <iostream>
@@ -13,11 +14,11 @@ int solution(string s)
     for (int i = 0; i < s.length(); i++) {
         if (temp.back() == s[i]) {
             temp.pop_back();
-            //cout << "°°À½" << endl;
+            //cout << "ê°™ìŒ" << endl;
         }
         else {
             temp.push_back(s[i]);
-            //cout << "´Ù¸§" << endl;
+            //cout << "ë‹¤ë¦„" << endl;
         }
         //cout << "temp : " << temp << ". s : " << s << endl;
     }
@@ -34,7 +35,7 @@ int solution(string s)
 }
 
 /*
-* ½ÃÇàÂø¿À 1 ½Ã°£º¹Àâµµ ½ÇÆĞ
+* ì‹œí–‰ì°©ì˜¤ 1 ì‹œê°„ë³µì¡ë„ ì‹¤íŒ¨
 int solution(string s)
 {
     string temp = "";
@@ -58,7 +59,7 @@ int solution(string s)
 }
 */
 /* 
-* ½ÃÇàÂø¿À 2 ½Ã°£º¹Àâµµ ½ÇÆĞ
+* ì‹œí–‰ì°©ì˜¤ 2 ì‹œê°„ë³µì¡ë„ ì‹¤íŒ¨
 int solution(string s)
 {
     int answer = 0;
@@ -66,7 +67,7 @@ int solution(string s)
     for (int i = 0; i < s.length() - 1; i++) {
         cout << s << " , " << i << endl;
         if (s[i] == s[i + 1]) {
-            cout << "Áö¿ì±â ½ÇÇà" << endl;
+            cout << "ì§€ìš°ê¸° ì‹¤í–‰" << endl;
             s.erase(i, 2);
             i = -1;
             if (s.length() == 0) {
