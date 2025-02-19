@@ -1,0 +1,13 @@
+다음과 같이 출력하도록 코드를 작성해 주세요.
+
+출력 예시
+
+!@#$%^&*(\'"<>?:;
+
+#include <iostream>
+
+using namespace std;
+
+int main(void) {
+	cout << "\u0021\u0040\u0023\u0024\u0025\u005e\u0026\u002a\u0028\u005c\u0027\u0022\u003c\u003e\u003f\u003a\u003b" << endl;
+}
