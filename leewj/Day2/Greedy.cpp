@@ -33,12 +33,14 @@ int solution(int n, vector<int> lost, vector<int> reserve) {
         while (reserve[j] < lost[i] - 1) {
             ++j;
             if (j >= reserve.size()) {
-                return answer;
+                j = reserve.size() - 1;
+                reserve[j] = 999;
+                break;
             }
         }
         if (reserve[j] <= lost[i] + 1) {
             ++answer;
-            reserve[j] = -1;
+            reserve[j++] = -1;
         }
     }
 

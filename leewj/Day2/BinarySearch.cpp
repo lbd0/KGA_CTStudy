@@ -21,8 +21,8 @@ long long solution(int n, vector<int> times) {
         }
     }
     right *= n;
-
-    while (true) {
+    
+    while (left <= right) {
         mid = (left + right) / 2;
         num = 0;
 
@@ -33,11 +33,8 @@ long long solution(int n, vector<int> times) {
         if (num < n) {
             left = mid + 1;
         }
-        else if (num > n) {
+        else if (num >= n) {
             right = mid - 1;
-        }
-        else {
-            break;
         }
     }
     answer = mid;
