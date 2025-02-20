@@ -1,0 +1,29 @@
+문제: 다들 알것임
+
+#include <iostream>
+#include <vector>
+
+using namespace std;
+
+string solution(vector<string> cards1, vector<string> cards2, vector<string> goal) {
+    string answer = "";   
+    int index1 = 0;
+    int index2 = 0; 
+    
+    for (const string& word : goal) {
+        if (index1 < cards1.size() && word == cards1[index1]) {
+            index1++;  
+        }
+        else if (index2 < cards2.size() && word == cards2[index2]) {
+            index2++; 
+        }
+        else {
+            answer = "No";  
+            return answer;
+        }
+    }
+
+    answer = "Yes";  
+    
+    return answer;
+}
