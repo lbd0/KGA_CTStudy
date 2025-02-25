@@ -1,0 +1,66 @@
+// https://school.programmers.co.kr/learn/courses/30/lessons/1844
+
+#include <vector>
+#include <queue>
+
+using namespace std;
+
+void InsertPathToQ(const vector<vector<int>>& maps, vector<vector<bool>>& visited, queue<pair<pair<int, int>, int>>& q, int i, int j, int distance) {
+    if (0 <= i && i < maps.size() && 0 <= j && j < maps[0].size()) {
+        if (i - 1 >= 0 && !visited[i - 1][j]) {
+            visited[i - 1][j] = true;
+            q.push(make_pair(make_pair(i - 1, j), distance + 1));
+        }
+        if (i + 1 < maps.size() && !visited[i + 1][j]) {
+            visited[i + 1][j] = true;
+            q.push(make_pair(make_pair(i + 1, j), distance + 1));
+        }
+        if (j - 1 >= 0 && !visited[i][j - 1]) {
+            visited[i][j - 1] = true;
+            q.push(make_pair(make_pair(i, j - 1), distance + 1));
+        }
+        if (j + 1 < maps[0].size() && !visited[i][j + 1]) {
+            visited[i][j + 1] = true;
+            q.push(make_pair(make_pair(i, j + 1), distance + 1));
+        }
+    }
+}
+
+int FindMinDistance(const vector<vector<int>>& maps) {
+    int minDistance = 1000000000;
+    queue<pair<pair<int, int>, int>> q;
+    vector<vector<bool>> visited(maps.size(), vector<bool>(maps[0].size(), false));
+    visited[0][0] = true;
+
+    InsertPathToQ(maps, visited, q, 0, 0, 1);
+
+    while (!q.empty()) {
+        if (maps[q.front().first.first][q.front().first.second] == 0) {
+            q.pop();
+            continue;
+        }
+
+        if (q.front().second > minDistance) {
+            q.pop();
+            continue;
+        }
+
+        if (q.front().first.first == maps.size() - 1 && q.front().first.second == maps[0].size() - 1) {
+            minDistance = q.front().second;
+            q.pop();
+            continue;
+        }
+
+        InsertPathToQ(maps, visited, q, q.front().first.first, q.front().first.second, q.front().second);
+        q.pop();
+    }
+
+    if (minDistance == 1000000000) return -1;
+
+    return minDistance;
+}
+
+int solution(vector<vector<int> > maps)
+{
+    return FindMinDistance(maps);
+}
