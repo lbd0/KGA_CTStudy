@@ -4,3 +4,23 @@
 
 단, 만약 그러한 인덱스가 없다면 -1을 반환합니다.
 */
+#include <string>
+#include <vector>
+
+using namespace std;
+
+int solution(vector<int> arr, int idx) {
+    int answer = 0;
+    
+    for(int n = 0; n < arr.size();n++)
+    {
+        if(n >= idx && arr.at(n) == 1)
+        {
+            answer = n;
+            return answer;
+        }
+    }
+    
+    answer = -1;
+    return answer;
+}
