@@ -4,6 +4,7 @@
 
 <h3 align="center"> MEMBER </h3>
 <h3 align="center"> 👨‍💻 김민형 👩‍💻 김향희 👩‍💻 서주연 👨‍💻 신정근 👩‍💻 이바다 👨‍💻 이우주 👩‍💻 이채현 👨‍💻 최상규 </h3>
+<h4 align="center"> 2025-02-17 ~ </h3>
 
 <br><br>
 
