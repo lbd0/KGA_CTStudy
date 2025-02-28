@@ -11,7 +11,6 @@ int solution(vector<int> nums)
     int answer = 0;
     map<int, int> phoneket;
     pair<map<int, int>::iterator, bool> pr;
-    int sum = 0;
 
     for (auto n : nums)
     {
@@ -22,12 +21,7 @@ int solution(vector<int> nums)
         }
     }
 
-    for (auto it = phoneket.begin(); it != phoneket.end(); it++)
-    {
-        sum += it->second;
-    }
-
-    if (phoneket.size() > sum / 2) answer = sum / 2;
+    if (phoneket.size() > nums.size() / 2) answer = nums.size() / 2;
     else answer = phoneket.size();
 
     return answer;
