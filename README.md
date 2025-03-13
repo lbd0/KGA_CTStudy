@@ -13,7 +13,8 @@
     <h4>
         &nbsp&nbsp&nbsp&nbsp • &nbsp 💻 USE: Programmers <br><br>
         &nbsp&nbsp&nbsp&nbsp • &nbsp 🙏 DEADLINE: 09:20:00 ~ 09:19:59 (1 Day) <br><br>
-        &nbsp&nbsp&nbsp&nbsp • &nbsp 📫 MISSION: Solving 4 Questions(Individual) + 1 Question(Whole) <br><br>
+        &nbsp&nbsp&nbsp&nbsp • &nbsp 📫 MISSION 1: Solving 4 Questions(Individual) + 1 Question(Whole) (2025-02-17 ~ 2025-03-07) <br><br>
+        &nbsp&nbsp&nbsp&nbsp • &nbsp 📫 MISSION 2: Learning Data Structures and Algorithms on Tue + Solving 2 Questions on Fri (2025-03-11 ~ 2025-00-00) <br><br>
         &nbsp&nbsp&nbsp&nbsp • &nbsp 💎 PENALTY: 5,000won <br><br>
         &nbsp&nbsp&nbsp&nbsp • &nbsp 👩‍👧‍👦 Q&A: Discuss Difficult Question With Each Other <br><br>
         &nbsp&nbsp&nbsp&nbsp • &nbsp ✍ CODE REVIEW: Solve the Same Question and Review It Together <br><br>
