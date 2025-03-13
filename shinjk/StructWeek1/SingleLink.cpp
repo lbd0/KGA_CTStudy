@@ -128,7 +128,7 @@ public:
 		while (current->next != nullptr)
 		{
 			cout << current->data<<" ";
-			current = currnet->next;
+			current = current->next;
 		}
 		cout << endl;
 	}
