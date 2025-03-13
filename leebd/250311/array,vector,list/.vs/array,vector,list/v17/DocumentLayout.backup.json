@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\Users\\user\\Desktop\\KGA_CTStudy\\leebd\\250311\\array,vector,list\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{328AE97B-CBA5-4A31-83D1-13FA7BA78927}|array,vector,list.vcxproj|C:\\Users\\user\\Desktop\\KGA_CTStudy\\leebd\\250311\\array,vector,list\\DoubleLinkedList.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{328AE97B-CBA5-4A31-83D1-13FA7BA78927}|array,vector,list.vcxproj|solutionrelative:DoubleLinkedList.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{328AE97B-CBA5-4A31-83D1-13FA7BA78927}|array,vector,list.vcxproj|C:\\Users\\user\\Desktop\\KGA_CTStudy\\leebd\\250311\\array,vector,list\\list.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{328AE97B-CBA5-4A31-83D1-13FA7BA78927}|array,vector,list.vcxproj|solutionrelative:list.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
@@ -27,19 +31,32 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "DoubleLinkedList.cpp",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\KGA_CTStudy\\leebd\\250311\\array,vector,list\\DoubleLinkedList.cpp",
+              "RelativeDocumentMoniker": "DoubleLinkedList.cpp",
+              "ToolTip": "C:\\Users\\user\\Desktop\\KGA_CTStudy\\leebd\\250311\\array,vector,list\\DoubleLinkedList.cpp",
+              "RelativeToolTip": "DoubleLinkedList.cpp",
+              "ViewState": "AgIAAJMAAAAAAAAAAAAAAKUAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-03-13T02:31:12.289Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "list.cpp",
               "DocumentMoniker": "C:\\Users\\user\\Desktop\\KGA_CTStudy\\leebd\\250311\\array,vector,list\\list.cpp",
               "RelativeDocumentMoniker": "list.cpp",
               "ToolTip": "C:\\Users\\user\\Desktop\\KGA_CTStudy\\leebd\\250311\\array,vector,list\\list.cpp",
               "RelativeToolTip": "list.cpp",
-              "ViewState": "AgIAAH0AAAAAAAAAAAAAAI0AAAAQAAAAAAAAAA==",
+              "ViewState": "AgIAAHsAAAAAAAAAAAAowJgAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2025-03-11T06:59:41.815Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "vector.cpp",
               "DocumentMoniker": "C:\\Users\\user\\Desktop\\KGA_CTStudy\\leebd\\250311\\array,vector,list\\vector.cpp",
               "RelativeDocumentMoniker": "vector.cpp",
@@ -47,12 +64,11 @@
               "RelativeToolTip": "vector.cpp",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAeAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-03-11T05:27:28.123Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-11T05:27:28.123Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "array.cpp",
               "DocumentMoniker": "C:\\Users\\user\\Desktop\\KGA_CTStudy\\leebd\\250311\\array,vector,list\\array.cpp",
               "RelativeDocumentMoniker": "array.cpp",
@@ -60,8 +76,7 @@
               "RelativeToolTip": "array.cpp",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-03-11T05:16:59.205Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-11T05:16:59.205Z"
             }
           ]
         }
