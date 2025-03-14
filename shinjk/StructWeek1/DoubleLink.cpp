@@ -100,8 +100,8 @@ public:
 	void erase_after(Node* prev)
 	{
 		Node* temp = prev->next;
-		prev->next = prev->next->next;
 		prev->next->next->prev = prev;
+		prev->next = prev->next->next;
 		delete temp;
 	}
 
@@ -143,7 +143,7 @@ public:
 	{
 		Node* current = head;
 
-		while (current->next != nullptr)
+		while (current != nullptr)
 		{
 			cout << current->data << " ";
 			current = current->next;
@@ -155,7 +155,7 @@ public:
 	void reverse_print()
 	{
 		Node* current = tail;
-		while (current->prev != nullptr)
+		while (current != nullptr)
 		{
 			cout << current->data << " ";
 			current = current->prev;

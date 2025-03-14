@@ -124,8 +124,8 @@ public:
 	void print()
 	{
 		Node* current = head;
-
-		while (current->next != nullptr)
+		   
+		while (current!= nullptr)
 		{
 			cout << current->data<<" ";
 			current = current->next;
