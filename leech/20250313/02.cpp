@@ -77,6 +77,11 @@ public:
 	void remove(T data) {
 		Node* current = head;				// 현재 노드
 
+		if (head->data == data) {			// 첫 노드가 삭제할 데이터면 삭제
+			pop_front();
+			return;
+		}
+
 		// 다음 노드가 있고 다음 Data가 찾는 Data가 아니면 다음 노드로
 		while (current->next != nullptr && current->next->data != data) {
 			current = current->next;
@@ -193,6 +198,11 @@ public:
 	// 특정 Data 삭제
 	void remove(T data) {
 		Node* current = head;				// 현재 노드
+
+		if (head->data == data) {
+			pop_front();
+			return;
+		}
 
 		// 다음 노드가 있고 다음 Data가 찾는 Data가 아니면 다음 노드로
 		while (current->next != nullptr && current->next->data != data) {
