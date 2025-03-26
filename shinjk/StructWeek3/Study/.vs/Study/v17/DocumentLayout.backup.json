@@ -1,0 +1,53 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\user\\Desktop\\Study \uBC1C\uD45C\\Study\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{DA2D9549-F138-4CFF-AA7D-85DDD1DAC5DD}|Study.vcxproj|C:\\Users\\user\\Desktop\\Study \uBC1C\uD45C\\Study\\TreeCircle.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{DA2D9549-F138-4CFF-AA7D-85DDD1DAC5DD}|Study.vcxproj|solutionrelative:TreeCircle.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DA2D9549-F138-4CFF-AA7D-85DDD1DAC5DD}|Study.vcxproj|C:\\Users\\user\\Desktop\\Study \uBC1C\uD45C\\Study\\Tree.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{DA2D9549-F138-4CFF-AA7D-85DDD1DAC5DD}|Study.vcxproj|solutionrelative:Tree.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "TreeCircle.cpp",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\Study \uBC1C\uD45C\\Study\\TreeCircle.cpp",
+              "RelativeDocumentMoniker": "TreeCircle.cpp",
+              "ToolTip": "C:\\Users\\user\\Desktop\\Study \uBC1C\uD45C\\Study\\TreeCircle.cpp*",
+              "RelativeToolTip": "TreeCircle.cpp*",
+              "ViewState": "AgIAAFoAAAAAAAAAAAAAAHgAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-03-26T10:03:38.347Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Tree.cpp",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\Study \uBC1C\uD45C\\Study\\Tree.cpp",
+              "RelativeDocumentMoniker": "Tree.cpp",
+              "ToolTip": "C:\\Users\\user\\Desktop\\Study \uBC1C\uD45C\\Study\\Tree.cpp",
+              "RelativeToolTip": "Tree.cpp",
+              "ViewState": "AgIAAHgAAAAAAAAAAAAAAHkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-03-24T10:29:27.733Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
