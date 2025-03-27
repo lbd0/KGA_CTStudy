@@ -14,45 +14,45 @@ public:
 		Node* right;
 
 		Node(int data) :data(data),parent(nullptr),left(nullptr),right(nullptr) {}
-
+		//노드에 data값 넣은데로 data 저장. 부모,왼쪽,오른쪽 포인트변수 기본적으로 nullptr
 	};
 
-	Node* root;
+	Node* root;//root 포인트변수 생성
 
 public:
-	Tree() { root = nullptr; }
+	Tree() { root = nullptr; }//root 포인트변수 값 nullptr으로 초기화
 
 	void Insert(Node*& root, Node* n) 
 	{
-		if (!root)
+		if (!root)//root가 없다면
 		{
-			root = n;
+			root = n;//root는 n
 		}
-		else if (root->data >= n->data)
+		else if (root->data >= n->data)//비교root의 data가 n의 data보다 크거나 같고
 		{
-			if (root->left == nullptr)
+			if (root->left == nullptr)//비교root의 왼쪽자식이 nullptr이라면,
 			{
-				root->left = n;
-				n->parent = root->left;
+				root->left = n;//왼쪽 자식은 n
+				n->parent = root;//n의 부모는 비교루트
 				return;
 			}
-			else
+			else//왼쪽자식이 있다면,
 			{
-				this->Insert(root->left, n);
+				this->Insert(root->left, n);//재귀함수
 			}
 			
 		}
-		else
+		else//비교root의 data가 n의 data보다 작고
 		{
-			if (root->right == nullptr)
+			if (root->right == nullptr)//비교root의 오른쪽자식이 nullptr이라면,
 			{
-				root->right = n;
-				n->parent = root->right;
+				root->right = n;//오른쪽 자식은 n
+				n->parent = root;//n의 부모는 비교루트
 				return;
 			}
-			else
+			else//오른쪽 자식이 있다면
 			{
-				this->Insert(root->right, n);
+				this->Insert(root->right, n);//재귀함수
 			}
 		}
 	}
@@ -60,14 +60,14 @@ public:
 	void preorder(Node* n)
 	{
 		if (n == nullptr)return;
-		cout << n->data << endl;
-		if (n->left != nullptr)
+		cout << n->data << endl;//n의 data 출력
+		if (n->left != nullptr)//n의 왼쪽 자식이 있다면
 		{
-			preorder(n->left);
+			preorder(n->left);//재귀함수
 		}
-		if (n->right != nullptr)
+		if (n->right != nullptr)//n의 오른쪽 자식이 있다면
 		{
-			preorder(n->right);
+			preorder(n->right);//재귀함수
 		}
 		else
 		{
@@ -79,14 +79,14 @@ public:
 	void inorder(Node* n)
 	{
 		if (n == nullptr)return;
-		if (n->left != nullptr)
+		if (n->left != nullptr)//n의 왼쪽 자식이 있다면
 		{
-			inorder(n->left);
+			inorder(n->left);//재귀함수
 		}
-		cout << n->data << endl;
-		if (n->right != nullptr)
+		cout << n->data << endl;//n의 data 출력
+		if (n->right != nullptr)//n의 오른쪽 자식이 있다면
 		{
-			inorder(n->right);
+			inorder(n->right);//재귀함수
 		}
 		else
 		{
@@ -98,26 +98,26 @@ public:
 	void postorder(Node* n)
 	{
 		if (n == nullptr)return;
-		if (n->left != nullptr)
+		if (n->left != nullptr)//n의 왼쪽 자식이 있다면
 		{
-			postorder(n->left);
+			postorder(n->left);//재귀함수
 		}
-		if (n->right != nullptr)
+		if (n->right != nullptr)//n의 오른쪽 자식이 있다면
 		{
-			postorder(n->right);
+			postorder(n->right);//재귀함수
 		}
-		cout << n->data << endl;
+		cout << n->data << endl;//n의 data 출력
 	}
 
 	void pop(int data,Node*root)
 	{
-		if (data == root->data)
+		if (data == root->data)//data가 비교대상의 data와 같다면
 		{
 			cout << root->data;
-			delete(root);
+			delete(root);//비교대상 삭제(연결은 못하겠습니다....)
 		}
-		pop(data, root->left);
-		pop(data, root->right);
+		pop(data, root->left);//그게 아니라면 왼쪽 재귀
+		pop(data, root->right);//오른쪽도 재귀
 	}
 
 };
