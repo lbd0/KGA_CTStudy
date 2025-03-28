@@ -47,7 +47,7 @@ void Insert(Node*& root, Node* n)
 		}
 		else
 		{
-			Insert(root->left, n);
+			Insert(root->right, n);
 		}
 	}
 }
@@ -64,6 +64,17 @@ void Create(Node*& root)
 		Insert(root, node);
 	}
 }
+
+Node* FindMin(Node* root)
+{
+	//후계자 찾기, 오른쪽 서브트리에서 왼쪽 노드만 찾기
+	while (root && root->left)
+	{
+		root = root->left;
+	}
+	return root;
+}
+
 Node* Delete(Node* root, int data)
 {
 	if (!root)
@@ -73,11 +84,11 @@ Node* Delete(Node* root, int data)
 
 	if (root->data > data)
 	{
-		Delete(root->left, data);
+		root->left = Delete(root->left, data);
 	}
 	else if (root->data < data)
 	{
-		Delete(root->right, data);
+		root->right = Delete(root->right, data);
 	}
 	else if (root->data == data)
 	{
@@ -107,12 +118,21 @@ Node* Delete(Node* root, int data)
 		else
 		{
 			//자식 노드가 2개 일 때
+			//왼쪽일 때는 최댓값을 , 오른쪽 서브트리일 때는 최솟값을 찾는다.
+			Node* temp = root;
+			Node* suc = FindMin(root->right);
 			
+			root->data = suc->data;
+			root->right = Delete(root->right, suc->data);
+			if (root->right)
+			{
+				root->right->parent = root;
+			}
 		}
-
-
 	}
+	return root;
 }
+
 
 void PreOrder(Node* n)
 {
