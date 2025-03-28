@@ -109,40 +109,131 @@ public:
 		cout << n->data << endl;//n의 data 출력
 	}
 
-	void pop(int data,Node*root)
+	void pop(int data,Node*&root)
 	{
 		if (data == root->data)//data가 비교대상의 data와 같다면
 		{
-			cout << root->data;
+			cout << root->data;//비교대상 data 출력
+
+			if (root->parent == nullptr)//비교대상의 부모가 없다면(루트)
+			{
+				if (root->left != nullptr&&root->right!=nullptr)//비교대상의 왼쪽이 있고, 오른쪽도 있고
+				{
+					leftInsert(root->right, root->left);//루트를 비교대상오른쪽으로 바꾸고, 비교대상왼쪽에 기존루트 왼쪽 붙이기
+					root = root->right;
+					root->parent = nullptr;
+					return;
+				}
+				else if (root->left != nullptr && root->right == nullptr)//비교대상의 왼쪽이 있고, 오른쪽이 없고
+				{
+					root = root->left;//루트를 비교대상오른쪽으로 바꾸기
+					root->parent = nullptr;
+					return;
+					
+				}
+				else if (root->left == nullptr && root->right != nullptr)
+				{
+					root = root->right;//루트를 비교대상왼쪽으로 바꾸기
+					root->parent = nullptr;
+					return;
+					
+				}
+			}
+			else if(root->parent!=nullptr)
+			{
+				if (root == root->parent->left)//비교대상이 비교대상부모의 왼쪽자식이라면
+				{
+					if (root->right != nullptr)//비교대상의 오른쪽자식이 있다면
+					{
+						root->right->parent = root->parent;//비교대상의 오른쪽자식의 부모는 비교대상의 부모
+						root->parent->left = root->right;//비교대상의 부모의 왼쪽자식은 비교대상의 오른쪽
+						if (root->left != nullptr)//비교대상의 왼쪽자식이 있다면
+						{
+							leftInsert(root->right, root->left);//비교대상의 오른쪽자식의 젤왼쪽에 비교대상 왼쪽자식 붙이기
+						}
+						return;
+					}
+					else if(root->right==nullptr)//비교대상의 오른쪽자식이 없다면
+					{
+						if (root->left != nullptr)//비교대상의 왼쪽자식이 있다면
+						{
+							root->left->parent = root->parent;//비교대상의 왼쪽자식의 부모는 비교대상의 부모
+							root->parent->left = root->left;//비교대상의 부모의 왼쪽자식은 비교대상의 왼쪽자식
+							
+						}
+						return;
+					}
+
+				}
+				else if(root==root->parent->right)//비교대상이 비교대상부모의 오른족 자식이라면
+				{
+					if (root->right != nullptr)//비교대상의 오른쪽 자식이 있다면
+					{
+						root->right->parent = root->parent;//비교대상의 오른쪽자식의 부모는 비교대상의 부모
+						root->parent->right = root->right;//비교대상의 부모의 오른쪽자식은 비교대상의 오른쪽 자식
+						if (root->left != nullptr)//비교대상의 왼쪽자식이 있다면
+						{
+							leftInsert(root->right, root->left);//비교대상의 오른쪽 자식의 젤 왼쪽에 비교대상 왼쪽자식 붙이기
+							
+						}
+						return;
+					}
+					else if(root->right==nullptr)//비교대상의 오른쪽 자식이 없다면
+					{
+						if (root->left != nullptr)//비교대상의 왼쪽 자식이 있다면
+						{
+							root->left->parent = root->parent;//비교대상의 왼쪽자식의 부모는 비교대상의 부모
+							root->parent->right = root->left;//비교대상의 부모의 오른쪽자식은 비교대상의 왼쪽자식
+							return;
+						
+						}
+					}
+				}
+			}
 			delete(root);//비교대상 삭제(연결은 못하겠습니다....)
 		}
 		pop(data, root->left);//그게 아니라면 왼쪽 재귀
 		pop(data, root->right);//오른쪽도 재귀
 	}
 
+	void leftInsert(Node*& root,Node*&n)
+	{
+		if (root->left != nullptr)
+		{
+			leftInsert(root->left,n);
+		}
+		else
+		{
+			root->left = n;
+			n->parent = root;
+		}
+	}
 };
 
-//int main()
-//{
-//	Tree* t = new Tree();
-//
-//	Tree::Node* node = new Tree::Node(5);
-//	t->Insert(t->root, node);
-//	Tree::Node* node1 = new Tree::Node(10);
-//	Tree::Node* node2 = new Tree::Node(6);
-//	Tree::Node* node3 = new Tree::Node(4);
-//	Tree::Node* node4 = new Tree::Node(8);
-//	Tree::Node* node5 = new Tree::Node(7);
-//	t->Insert(t->root, node1);
-//	t->Insert(t->root, node2);
-//	t->Insert(t->root, node3);
-//	t->Insert(t->root, node4);
-//	t->Insert(t->root, node5);
-//
-//
-//	t->preorder(t->root);
-//	cout << endl;
-//	t->inorder(t->root);
-//	cout << endl;
-//	t->postorder(t->root);
-//}
+int main()
+{
+	Tree* t = new Tree();
+
+	Tree::Node* node = new Tree::Node(5);
+	t->Insert(t->root, node);
+	Tree::Node* node1 = new Tree::Node(10);
+	Tree::Node* node2 = new Tree::Node(6);
+	Tree::Node* node3 = new Tree::Node(4);
+	Tree::Node* node4 = new Tree::Node(8);
+	Tree::Node* node5 = new Tree::Node(7);
+	t->Insert(t->root, node1);
+	t->Insert(t->root, node2);
+	t->Insert(t->root, node3);
+	t->Insert(t->root, node4);
+	t->Insert(t->root, node5);
+
+	t->pop(5, t->root);
+	//t->pop(7, t->root);//루트는 제거되는데, 그냥은 제거가 안됩니다...ㅠㅠ
+
+	cout << endl;
+	t->preorder(t->root);
+	cout << endl;
+	t->inorder(t->root);
+	cout << endl;
+	t->postorder(t->root);
+}

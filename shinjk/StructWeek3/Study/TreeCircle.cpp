@@ -102,27 +102,27 @@ public:
 	}
 };
 
-int main()
-{
-
-	int count;
-	cin >> count;//원소 갯수
-	char a;
-	char b;
-	char c;
-	Tree* t = new Tree();
-
-	for (int i=0; i < count; ++i)//원소 갯수만큼 입력받아서 삽입
-	{
-		cin >> a>>b>>c;
-		t->Insert(t->root, a, b, c);
-	}
-
-	t->preorder(t->root);
-	cout << endl;
-	t->inorder(t->root);
-	cout << endl;
-	t->postorder(t->root);
-
-
-}
+//int main()
+//{
+//
+//	int count;
+//	cin >> count;//원소 갯수
+//	char a;
+//	char b;
+//	char c;
+//	Tree* t = new Tree();
+//
+//	for (int i=0; i < count; ++i)//원소 갯수만큼 입력받아서 삽입
+//	{
+//		cin >> a>>b>>c;
+//		t->Insert(t->root, a, b, c);
+//	}
+//
+//	t->preorder(t->root);
+//	cout << endl;
+//	t->inorder(t->root);
+//	cout << endl;
+//	t->postorder(t->root);
+//
+//
+//}
