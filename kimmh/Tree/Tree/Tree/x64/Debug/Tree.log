@@ -1,0 +1,24 @@
+﻿  BinaryTree.cpp
+C:\Users\MH\Desktop\UnrealLearn\KGA_CTStudy\kimmh\Tree\Tree\Tree\BinaryTree.cpp(135,11): warning C4553: '==': 식의 결과가 사용되지 않습니다. '='을(를) 의도했습니까?
+      C:\Users\MH\Desktop\UnrealLearn\KGA_CTStudy\kimmh\Tree\Tree\Tree\BinaryTree.cpp(135,11):
+      템플릿 인스턴스화 컨텍스트(가장 오래된 인스턴스화 컨텍스트)가
+          C:\Users\MH\Desktop\UnrealLearn\KGA_CTStudy\kimmh\Tree\Tree\Tree\BinaryTree.cpp(318,18):
+          컴파일되는 클래스 템플릿 인스턴스화 'BinaryTree<int>'에 대한 참조를 확인하세요.
+          C:\Users\MH\Desktop\UnrealLearn\KGA_CTStudy\kimmh\Tree\Tree\Tree\BinaryTree.cpp(125,7):
+          클래스 템플릿 멤버 함수 'void BinaryTree<int>::erase(T)'을(를) 컴파일하는 중입니다.
+          with
+          [
+              T=int
+          ]
+              C:\Users\MH\Desktop\UnrealLearn\KGA_CTStudy\kimmh\Tree\Tree\Tree\BinaryTree.cpp(347,16):
+              'main'에서 'BinaryTree<int>::erase'에 대한 첫 번째 참조를 확인하세요.
+  
+C:\Users\MH\Desktop\UnrealLearn\KGA_CTStudy\kimmh\Tree\Tree\Tree\BinaryTree.cpp(142,28): warning C4553: '==': 식의 결과가 사용되지 않습니다. '='을(를) 의도했습니까?
+C:\Users\MH\Desktop\UnrealLearn\KGA_CTStudy\kimmh\Tree\Tree\Tree\BinaryTree.cpp(147,29): warning C4553: '==': 식의 결과가 사용되지 않습니다. '='을(를) 의도했습니까?
+C:\Users\MH\Desktop\UnrealLearn\KGA_CTStudy\kimmh\Tree\Tree\Tree\BinaryTree.cpp(156,11): warning C4553: '==': 식의 결과가 사용되지 않습니다. '='을(를) 의도했습니까?
+C:\Users\MH\Desktop\UnrealLearn\KGA_CTStudy\kimmh\Tree\Tree\Tree\BinaryTree.cpp(179,11): warning C4553: '==': 식의 결과가 사용되지 않습니다. '='을(를) 의도했습니까?
+C:\Users\MH\Desktop\UnrealLearn\KGA_CTStudy\kimmh\Tree\Tree\Tree\BinaryTree.cpp(202,28): warning C4553: '==': 식의 결과가 사용되지 않습니다. '='을(를) 의도했습니까?
+C:\Users\MH\Desktop\UnrealLearn\KGA_CTStudy\kimmh\Tree\Tree\Tree\BinaryTree.cpp(203,29): warning C4553: '==': 식의 결과가 사용되지 않습니다. '='을(를) 의도했습니까?
+C:\Users\MH\Desktop\UnrealLearn\KGA_CTStudy\kimmh\Tree\Tree\Tree\BinaryTree.cpp(215,37): warning C4553: '==': 식의 결과가 사용되지 않습니다. '='을(를) 의도했습니까?
+C:\Users\MH\Desktop\UnrealLearn\KGA_CTStudy\kimmh\Tree\Tree\Tree\BinaryTree.cpp(218,38): warning C4553: '==': 식의 결과가 사용되지 않습니다. '='을(를) 의도했습니까?
+  Tree.vcxproj -> C:\Users\MH\Desktop\UnrealLearn\KGA_CTStudy\kimmh\Tree\Tree\x64\Debug\Tree.exe
