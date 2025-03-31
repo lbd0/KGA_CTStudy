@@ -1,0 +1,121 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\user\\Desktop\\Study\\KGA_CTStudy\\shinjk\\StructWeek4\\HashTable\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{31D709CF-C29D-43A3-859D-178305940C40}|HashTable.vcxproj|C:\\Users\\user\\Desktop\\Study\\KGA_CTStudy\\shinjk\\StructWeek4\\HashTable\\NoGoal.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{31D709CF-C29D-43A3-859D-178305940C40}|HashTable.vcxproj|solutionrelative:NoGoal.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{31D709CF-C29D-43A3-859D-178305940C40}|HashTable.vcxproj|C:\\Users\\user\\Desktop\\Study\\KGA_CTStudy\\shinjk\\StructWeek4\\HashTable\\UnorderedMap.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{31D709CF-C29D-43A3-859D-178305940C40}|HashTable.vcxproj|solutionrelative:UnorderedMap.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{31D709CF-C29D-43A3-859D-178305940C40}|HashTable.vcxproj|C:\\Users\\user\\Desktop\\Study\\KGA_CTStudy\\shinjk\\StructWeek4\\HashTable\\UnorderedSet.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{31D709CF-C29D-43A3-859D-178305940C40}|HashTable.vcxproj|solutionrelative:UnorderedSet.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{31D709CF-C29D-43A3-859D-178305940C40}|HashTable.vcxproj|C:\\Users\\user\\Desktop\\Study\\KGA_CTStudy\\shinjk\\StructWeek4\\HashTable\\Chaining.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{31D709CF-C29D-43A3-859D-178305940C40}|HashTable.vcxproj|solutionrelative:Chaining.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{31D709CF-C29D-43A3-859D-178305940C40}|HashTable.vcxproj|C:\\Users\\user\\Desktop\\Study\\KGA_CTStudy\\shinjk\\StructWeek4\\HashTable\\CuckCoo.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{31D709CF-C29D-43A3-859D-178305940C40}|HashTable.vcxproj|solutionrelative:CuckCoo.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{31D709CF-C29D-43A3-859D-178305940C40}|HashTable.vcxproj|C:\\Users\\user\\Desktop\\Study\\KGA_CTStudy\\shinjk\\StructWeek4\\HashTable\\Follow.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{31D709CF-C29D-43A3-859D-178305940C40}|HashTable.vcxproj|solutionrelative:Follow.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 328,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "NoGoal.cpp",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\Study\\KGA_CTStudy\\shinjk\\StructWeek4\\HashTable\\NoGoal.cpp",
+              "RelativeDocumentMoniker": "NoGoal.cpp",
+              "ToolTip": "C:\\Users\\user\\Desktop\\Study\\KGA_CTStudy\\shinjk\\StructWeek4\\HashTable\\NoGoal.cpp",
+              "RelativeToolTip": "NoGoal.cpp",
+              "ViewState": "AgIAADUAAAAAAAAAAAAUwEcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-03-31T10:52:44.104Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "UnorderedSet.cpp",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\Study\\KGA_CTStudy\\shinjk\\StructWeek4\\HashTable\\UnorderedSet.cpp",
+              "RelativeDocumentMoniker": "UnorderedSet.cpp",
+              "ToolTip": "C:\\Users\\user\\Desktop\\Study\\KGA_CTStudy\\shinjk\\StructWeek4\\HashTable\\UnorderedSet.cpp",
+              "RelativeToolTip": "UnorderedSet.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-03-31T10:15:07.035Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "UnorderedMap.cpp",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\Study\\KGA_CTStudy\\shinjk\\StructWeek4\\HashTable\\UnorderedMap.cpp",
+              "RelativeDocumentMoniker": "UnorderedMap.cpp",
+              "ToolTip": "C:\\Users\\user\\Desktop\\Study\\KGA_CTStudy\\shinjk\\StructWeek4\\HashTable\\UnorderedMap.cpp",
+              "RelativeToolTip": "UnorderedMap.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACsAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-03-31T09:41:53.471Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "CuckCoo.cpp",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\Study\\KGA_CTStudy\\shinjk\\StructWeek4\\HashTable\\CuckCoo.cpp",
+              "RelativeDocumentMoniker": "CuckCoo.cpp",
+              "ToolTip": "C:\\Users\\user\\Desktop\\Study\\KGA_CTStudy\\shinjk\\StructWeek4\\HashTable\\CuckCoo.cpp",
+              "RelativeToolTip": "CuckCoo.cpp",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAAIoAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-03-31T08:41:59.217Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Chaining.cpp",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\Study\\KGA_CTStudy\\shinjk\\StructWeek4\\HashTable\\Chaining.cpp",
+              "RelativeDocumentMoniker": "Chaining.cpp",
+              "ToolTip": "C:\\Users\\user\\Desktop\\Study\\KGA_CTStudy\\shinjk\\StructWeek4\\HashTable\\Chaining.cpp",
+              "RelativeToolTip": "Chaining.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-03-31T08:10:07.495Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Follow.cpp",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\Study\\KGA_CTStudy\\shinjk\\StructWeek4\\HashTable\\Follow.cpp",
+              "RelativeDocumentMoniker": "Follow.cpp",
+              "ToolTip": "C:\\Users\\user\\Desktop\\Study\\KGA_CTStudy\\shinjk\\StructWeek4\\HashTable\\Follow.cpp",
+              "RelativeToolTip": "Follow.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-03-31T00:14:51.195Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
