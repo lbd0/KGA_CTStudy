@@ -35,10 +35,10 @@ public:
 			return table1.begin() + HashFunc1(key);
 		}
 
-		if (table1[HashFunc2(key)] == key)
+		if (table2[HashFunc2(key)] == key)
 		{
 			cout << "값이 존재함" << endl;
-			return table1.begin() + HashFunc2(key);
+			return table2.begin() + HashFunc2(key);
 		}
 
 		return table2.end();
