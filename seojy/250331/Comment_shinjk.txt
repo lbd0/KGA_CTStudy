@@ -1,0 +1,2 @@
+1. Hash_Cuckoo.cpp에 lookup함수에서 두번째 if문 table1이 tabel2로 바뀌어야되는거 아닌지요...?
+2. unordered_set.cpp에 find_key2 함수 안에 있는 조건 uset.count(30)>0 의 주석을 적어주셔서 이해할 수 있었습니다.

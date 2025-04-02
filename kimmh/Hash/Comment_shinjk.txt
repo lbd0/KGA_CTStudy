@@ -1,0 +1,3 @@
+1. 부제랑 설명을 같이 적어줘서 이해하기 더 편한 것 같습니다.
+2. load_factor랑 적재율이 무슨뜻인지 이해했습니다.
+3. CuckooHashing.cpp에 lookup함수에서 두번째 if문 table1이 tabel2로 바뀌어야되는거 아닌지요...?
