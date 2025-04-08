@@ -19,37 +19,3 @@ n	  lost	  reserve	    return
 3  	[3]	    [1]	        2
 *********************************************************************************/
 
-
-#include <string>
-#include <vector>
-
-using namespace std;
-
-//잃어버린 사람과 가져온 사람의 번호를 합쳐서 순서대로 정렬한다
-//앞부터 하나씩 반복하며 reserve 한사람을 찾는다. reserve 뒤로 살펴 lost한 사람이 있으면 max에 1을 더해줌. 첫번쨰 reserve는 앞도 살핌. max에 reserve 숫자도 더해줌. 
-
-// [12345] 
-//만약 
-
-int solution(int n, vector<int> lost, vector<int> reserve) {
-    int answer = 0;
-    vector <int> allStudent;
-     
-    for (auto L : lost)
-    {
-        allStudent.push();
-    }
-
-    for (auto R : reserve)
-    {
-        allStudent.push();
-    }
-
-    allStudent.sort(allStudent.begin(), allStudent.end());
-
-
-
-
-    return answer;
-
-}
