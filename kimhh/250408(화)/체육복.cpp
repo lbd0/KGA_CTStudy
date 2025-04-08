@@ -17,12 +17,13 @@ int solution(int n, vector<int> lost, vector<int> reserve) {
     {
         for (int r : reserve)
         {
-            if ((l + 1) == r)
+            if (l == (r + 1))
             {
                 answer += 1;
             }
         }
     }
+    answer += reserve.size();
     return answer;
 }
 
