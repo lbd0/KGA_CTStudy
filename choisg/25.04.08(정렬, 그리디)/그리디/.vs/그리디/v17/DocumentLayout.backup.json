@@ -1,0 +1,54 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\user\\Desktop\\ProgrammingStudy\\KGA_CTStudy\\choisg\\25.04.08(\uC815\uB82C, \uADF8\uB9AC\uB514)\\\uADF8\uB9AC\uB514\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{93F94096-7CF5-4621-9311-8AB02D78194B}|\uADF8\uB9AC\uB514.vcxproj|C:\\Users\\user\\Desktop\\ProgrammingStudy\\KGA_CTStudy\\choisg\\25.04.08(\uC815\uB82C, \uADF8\uB9AC\uB514)\\\uADF8\uB9AC\uB514\\\uCCB4\uC721\uBCF5.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{93F94096-7CF5-4621-9311-8AB02D78194B}|\uADF8\uB9AC\uB514.vcxproj|solutionrelative:\uCCB4\uC721\uBCF5.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{93F94096-7CF5-4621-9311-8AB02D78194B}|\uADF8\uB9AC\uB514.vcxproj|C:\\Users\\user\\Desktop\\ProgrammingStudy\\KGA_CTStudy\\choisg\\25.04.08(\uC815\uB82C, \uADF8\uB9AC\uB514)\\\uADF8\uB9AC\uB514\\\uAC70\uC2A4\uB984\uB3C8.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{93F94096-7CF5-4621-9311-8AB02D78194B}|\uADF8\uB9AC\uB514.vcxproj|solutionrelative:\uAC70\uC2A4\uB984\uB3C8.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "\uCCB4\uC721\uBCF5.cpp",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\ProgrammingStudy\\KGA_CTStudy\\choisg\\25.04.08(\uC815\uB82C, \uADF8\uB9AC\uB514)\\\uADF8\uB9AC\uB514\\\uCCB4\uC721\uBCF5.cpp",
+              "RelativeDocumentMoniker": "\uCCB4\uC721\uBCF5.cpp",
+              "ToolTip": "C:\\Users\\user\\Desktop\\ProgrammingStudy\\KGA_CTStudy\\choisg\\25.04.08(\uC815\uB82C, \uADF8\uB9AC\uB514)\\\uADF8\uB9AC\uB514\\\uCCB4\uC721\uBCF5.cpp",
+              "RelativeToolTip": "\uCCB4\uC721\uBCF5.cpp",
+              "ViewState": "AgIAABQAAAAAAAAAAAAhwB8AAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-04-08T11:21:30.843Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "\uAC70\uC2A4\uB984\uB3C8.cpp",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\ProgrammingStudy\\KGA_CTStudy\\choisg\\25.04.08(\uC815\uB82C, \uADF8\uB9AC\uB514)\\\uADF8\uB9AC\uB514\\\uAC70\uC2A4\uB984\uB3C8.cpp",
+              "RelativeDocumentMoniker": "\uAC70\uC2A4\uB984\uB3C8.cpp",
+              "ToolTip": "C:\\Users\\user\\Desktop\\ProgrammingStudy\\KGA_CTStudy\\choisg\\25.04.08(\uC815\uB82C, \uADF8\uB9AC\uB514)\\\uADF8\uB9AC\uB514\\\uAC70\uC2A4\uB984\uB3C8.cpp",
+              "RelativeToolTip": "\uAC70\uC2A4\uB984\uB3C8.cpp",
+              "ViewState": "AgIAADYAAAAAAAAAAAAAAEIAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-04-08T11:21:26.567Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

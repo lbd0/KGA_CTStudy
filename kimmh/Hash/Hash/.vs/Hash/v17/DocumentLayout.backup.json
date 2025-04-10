@@ -1,0 +1,54 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\MH\\Desktop\\UnrealLearn\\KGA_CTStudy\\kimmh\\Hash\\Hash\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{83CF9954-DAC2-498E-B2F0-D5C475910AD9}|IncompleteRunner\\IncompleteRunner.vcxproj|C:\\Users\\MH\\Desktop\\UnrealLearn\\KGA_CTStudy\\kimmh\\Hash\\Hash\\IncompleteRunner\\IncompleteRunner.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{83CF9954-DAC2-498E-B2F0-D5C475910AD9}|IncompleteRunner\\IncompleteRunner.vcxproj|solutionrelative:IncompleteRunner\\IncompleteRunner.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D82359F0-F08B-44E8-8AEA-44F03080560A}|Hash\\Hash.vcxproj|C:\\Users\\MH\\Desktop\\UnrealLearn\\KGA_CTStudy\\kimmh\\Hash\\Hash\\Hash\\UnorderedMap.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{D82359F0-F08B-44E8-8AEA-44F03080560A}|Hash\\Hash.vcxproj|solutionrelative:Hash\\UnorderedMap.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "IncompleteRunner.cpp",
+              "DocumentMoniker": "C:\\Users\\MH\\Desktop\\UnrealLearn\\KGA_CTStudy\\kimmh\\Hash\\Hash\\IncompleteRunner\\IncompleteRunner.cpp",
+              "RelativeDocumentMoniker": "IncompleteRunner\\IncompleteRunner.cpp",
+              "ToolTip": "C:\\Users\\MH\\Desktop\\UnrealLearn\\KGA_CTStudy\\kimmh\\Hash\\Hash\\IncompleteRunner\\IncompleteRunner.cpp",
+              "RelativeToolTip": "IncompleteRunner\\IncompleteRunner.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-03-31T11:56:51.519Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "UnorderedMap.cpp",
+              "DocumentMoniker": "C:\\Users\\MH\\Desktop\\UnrealLearn\\KGA_CTStudy\\kimmh\\Hash\\Hash\\Hash\\UnorderedMap.cpp",
+              "RelativeDocumentMoniker": "Hash\\UnorderedMap.cpp",
+              "ToolTip": "C:\\Users\\MH\\Desktop\\UnrealLearn\\KGA_CTStudy\\kimmh\\Hash\\Hash\\Hash\\UnorderedMap.cpp",
+              "RelativeToolTip": "Hash\\UnorderedMap.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-03-31T11:30:52.051Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
