@@ -10,7 +10,7 @@ struct Edge
 {
 	int src;
 	int dst;
-	int wight;
+	int weight;
 };
 
 vector<int> BellmanFord(vector<Edge> edges, int v, int start) 
@@ -31,9 +31,9 @@ vector<int> BellmanFord(vector<Edge> edges, int v, int start)
 			}
 
 			// 인접한 정점이 새로운 경로보다 크면 갱신
-			if (distance[edge.dst] > distance[edge.src] + edge.wight) 
+			if (distance[edge.dst] > distance[edge.src] + edge.weight) 
 			{
-				distance[edge.dst] = distance[edge.src] + edge.wight;
+				distance[edge.dst] = distance[edge.src] + edge.weight;
 			}
 		}
 	}
@@ -45,13 +45,12 @@ vector<int> BellmanFord(vector<Edge> edges, int v, int start)
 			continue;
 		}
 
-		if (distance[edge.dst] > distance[edge.src] + edge.wight)
+		if (distance[edge.dst] > distance[edge.src] + edge.weight)
 		{
 			cout << "음수 가중치 사이클 발견" << endl;
-			return{};
+			return {};
 		}
 	}
-
 	return distance;
 }
 
@@ -74,7 +73,7 @@ int main()
 
 	for (auto& edge : edge_map)
 	{
-		edges.emplace_back(Edge{ edge[0],edge[1],edge[2] });
+		edges.emplace_back(Edge{ edge[0], edge[1], edge[2] });
 	}
 
 	int start = 0;
