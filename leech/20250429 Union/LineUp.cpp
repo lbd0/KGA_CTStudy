@@ -10,7 +10,7 @@ vector<vector<int>> graph;    // 인접 리스트
 vector<int> inDegree;         // 진입 차수 배열
 queue<int> q;                 // 위상 정렬용 큐
 
-// 위상 정렬
+// 위상 정렬 함수
 void topology_sort()
 {
     // 진입 차수가 0인 정점을 큐에 삽입
