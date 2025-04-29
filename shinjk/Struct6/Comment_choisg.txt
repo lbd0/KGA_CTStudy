@@ -1,0 +1,2 @@
+1.     if(minTime[i]<=K)answer++; 이 부분 띄어쓰기 불편해요 
+2.  str은 string인줄 알았어요. des도 dest가 좋아보여요. 변수명만 신경쓰시면 좋은 코드 쓰실 것 같아요. 
