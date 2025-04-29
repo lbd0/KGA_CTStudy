@@ -1,0 +1,54 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\MH\\Desktop\\UnrealLearn\\KGA_CTStudy\\kimmh\\UF\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{276842E9-76E7-4E52-9B95-6FFCDCC826F3}|Line\\Line.vcxproj|C:\\Users\\MH\\Desktop\\UnrealLearn\\KGA_CTStudy\\kimmh\\UF\\Line\\2252.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{276842E9-76E7-4E52-9B95-6FFCDCC826F3}|Line\\Line.vcxproj|solutionrelative:Line\\2252.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3A172CD7-0F49-4523-9B4B-392497E5D450}|UF\\UF.vcxproj|C:\\Users\\MH\\Desktop\\UnrealLearn\\KGA_CTStudy\\kimmh\\UF\\UF\\1922.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{3A172CD7-0F49-4523-9B4B-392497E5D450}|UF\\UF.vcxproj|solutionrelative:UF\\1922.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "2252.cpp",
+              "DocumentMoniker": "C:\\Users\\MH\\Desktop\\UnrealLearn\\KGA_CTStudy\\kimmh\\UF\\Line\\2252.cpp",
+              "RelativeDocumentMoniker": "Line\\2252.cpp",
+              "ToolTip": "C:\\Users\\MH\\Desktop\\UnrealLearn\\KGA_CTStudy\\kimmh\\UF\\Line\\2252.cpp",
+              "RelativeToolTip": "Line\\2252.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-04-29T13:59:42.857Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "1922.cpp",
+              "DocumentMoniker": "C:\\Users\\MH\\Desktop\\UnrealLearn\\KGA_CTStudy\\kimmh\\UF\\UF\\1922.cpp",
+              "RelativeDocumentMoniker": "UF\\1922.cpp",
+              "ToolTip": "C:\\Users\\MH\\Desktop\\UnrealLearn\\KGA_CTStudy\\kimmh\\UF\\UF\\1922.cpp",
+              "RelativeToolTip": "UF\\1922.cpp",
+              "ViewState": "AgIAAFcAAAAAAAAAAAAAAAQAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-04-29T12:55:33.525Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
